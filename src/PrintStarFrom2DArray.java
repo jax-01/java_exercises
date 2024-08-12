@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * This class creates a star using a 2D array in the command line.
+ */
 public class PrintStarFrom2DArray {
     public static void printStar() {
         Scanner in = new Scanner(System.in);
