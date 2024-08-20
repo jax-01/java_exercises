@@ -8,6 +8,6 @@ public class FizzBuzz {
     }
 
     public static boolean isDivByThreeAndFive(int num) {
-        return num % 3 == 0 && num % 5 == 0;
+        return isDivByThree(num) && isDivByFive(num);
     }
 }
