@@ -6,14 +6,9 @@ public class Main {
 //        ArrayElementShift shift = new ArrayElementShift();
 //        shift.shiftRight();
 
-//        if (FizzBuzz.isDivByThreeAndFive(15)) {
-//            System.out.println("FizzBuzz");
-//        } else if (FizzBuzz.isDivByThree(15)) {
-//            System.out.println("Fizz");
-//        } else if (FizzBuzz.isDivByFive(15)) {
-//            System.out.println("Buzz");
-//        } else {
-//            System.out.println("None");
-//        }
+//        System.out.println(FizzBuzz.isDivByThreeAndFive(15) ? "FizzBuzz"
+//                            : FizzBuzz.isDivByThree(15) ? "Fizz"
+//                            : FizzBuzz.isDivByFive(15) ? "Buzz"
+//                            : "None");
     }
 }
