@@ -11,5 +11,6 @@ public class DoubleCharacters {
         }
 
         System.out.println(newStr);
+        sc.close();
     }
 }
