@@ -13,7 +13,7 @@ public class GuanineCytosineContent {
             }
         }
         double res = (double) count / input.length();
-        System.out.printf("%.1f", res * 100);
+        System.out.println(res * 100);
         sc.close();
     }
 }
