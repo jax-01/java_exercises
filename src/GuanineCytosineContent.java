@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class GuanineCytosineContent {
 
-    public static void calculatePercentGC() {
+    public void calculatePercentGC() {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine().toLowerCase();
         int count = 0;
