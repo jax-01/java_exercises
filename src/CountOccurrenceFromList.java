@@ -10,6 +10,12 @@ public class CountOccurrenceFromList {
             }
         }
 
+        for (Integer num : list2) {
+            if (num == value) {
+                check--;
+            }
+        }
+
         return false;
     }
 }
