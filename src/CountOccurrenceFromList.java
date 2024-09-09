@@ -16,6 +16,6 @@ public class CountOccurrenceFromList {
             }
         }
 
-        return false;
+        return check == 0;
     }
 }
